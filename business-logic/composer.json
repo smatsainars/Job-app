@@ -1,0 +1,32 @@
+{
+    "name": "stage-job/business-logic",
+    "description": "Business logic layer for Stage Job Platform",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StageJob\\BusinessLogic\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "smatsainars",
+            "email": "smats.ainars@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "doctrine/orm": "2.17",
+        "doctrine/dbal": "3.7",
+        "doctrine/migrations": "3.6",
+        "vlucas/phpdotenv": "5.6",
+        "ramsey/uuid": "4.7",
+        "symfony/validator": "6.4",
+        "google/apiclient": "2.15"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.5",
+        "fakerphp/faker": "1.23",
+        "symfony/var-dumper": "6.4"
+    }
+}
